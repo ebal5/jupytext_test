@@ -2,7 +2,7 @@
 
 # JupyterLab利用プロジェクトをGitで管理する:jupytext編
 
-[記事](https://zenn.dev/articles/e8fcb7aa4736f3) で試す内容のためのリポジトリ。
+[記事](https://zenn.dev/ebal/articles/e8fcb7aa4736f3) で試す内容のためのリポジトリ。
 
 Pythonファイルやノートブックの内容は適当なサンプルとしてirisデータセットを読み込んでプロットするもの。
 `src/` 配下には読み込みやプロット用の関数などが置かれており、ノートブックからはそれらを読み込んで利用する形。
