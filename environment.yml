@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib=3.8.3=py311h38be061_0
+  - nbdime=4.0.1=pyhd8ed1ab_0
+  - numpy=1.26.4=py311h64a7726_0
+  - pandas=2.2.1=py311h320fe9a_0
+  - scikit-learn=1.4.1.post1=py311hc009520_0
+  - seaborn=0.13.2=hd8ed1ab_0
+  - python=3.11
