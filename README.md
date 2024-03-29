@@ -19,11 +19,18 @@ Pythonファイルやノートブックの内容は適当なサンプルとし�
 
 1. このリポジトリをzipでダウンロードあるいはフォークしてクローンする
 2. リポジトリのフォルダでVSCodeを開く
-3. Reopen Folder in ...
-4. ryeによって必要なライブラリがインストールされる
-TODO: VSCodeでの動作手順を書く
+3. `Dev Containers: Reopen in Container` を実行する
+4. ビルド時にryeによって必要なライブラリがインストールされる
+
+VSCodeの拡張機能`congyiwu.vscode-jupytext`などはDev Containersの設定でインストール済み。
+ファイルエクスプローラーで`nootebooks` や `scripts` 配下にあるPythonスクリプトを右クリックし `Open as a Jupyter Notebook` があれば成功。
 
 ![Open as a Jupyter Notebookのメニュー](images/open_as_a_jupyter_notebook.png)
+
+この項目からファイルを開くと、JupyterLabと同じようにノートブック形式とリンクした状態でPythonスクリプトを編集できる。
+注意として、ノートブックファイルを直接開いた場合はリンクした状態にならない。代わりにエクスプローラー上の右クリックメニューに `Import Notebook to Script` が追加される。
+
+![Import Notebook to Scriptメニュー](Import_Notebook_to_Script.png)
 
 ### JupyterLabをDockerで起動
 
