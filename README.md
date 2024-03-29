@@ -19,7 +19,7 @@ Pythonファイルやノートブックの内容は適当なサンプルとし�
 
 1. このリポジトリをzipでダウンロードあるいはフォークしてクローンする
 2. リポジトリのフォルダでVSCodeを開く
-3. `Devcontaienrs: Reopen in Contaienr` を実行する
+3. `Dev Containers: Reopen in Container` を実行する
 4. ビルド時にryeによって必要なライブラリがインストールされる
 
 VSCodeの拡張機能`congyiwu.vscode-jupytext`などはDev Containersの設定でインストール済み。
