@@ -40,7 +40,7 @@ VSCodeの拡張機能`congyiwu.vscode-jupytext`などはDev Containersの設定�
 この項目からファイルを開くと、JupyterLabと同じようにノートブック形式とリンクした状態でPythonスクリプトを編集できる。
 注意として、ノートブックファイルを直接開いた場合はリンクした状態にならない。代わりにエクスプローラー上の右クリックメニューに `Import Notebook to Script` が追加される。
 
-![Import Notebook to Scriptメニュー](Import_Notebook_to_Script.png)
+![Import Notebook to Scriptメニュー](images/Import_Notebook_to_Script.png)
 
 ### JupyterLabをDockerで起動
 
